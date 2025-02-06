@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         dryRun = false,
         plugin = {
                 "pretty",
-                "html:target/cucumber.html",
+                "html:target/cucumber-reports/index.html",
                 "junit:target/junitreports.xml",
                 "html:target/site/cucumber-pretty",
                 "json:target/cucumber/cucumber.json"
